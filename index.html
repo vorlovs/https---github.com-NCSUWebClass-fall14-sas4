@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Login - Task Manager</title>
+
+    <link rel="stylesheet" href="css/login_style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="container">
+    <center><img src = "img/login.jpg" alt ="Logo" width= "300px"/></center>
+  <div id="login-form">
+
+    <h3>Login</h3>
+
+    <fieldset>
+
+      <form action="container.html" method="get">
+
+        <input type="email" required value="Email" onBlur="if(this.value=='')this.value='Email'" onFocus="if(this.value=='Email')this.value='' "> <!-- JS because of IE support; better: placeholder="Email" -->
+
+        <input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "> <!-- JS because of IE support; better: placeholder="Password" -->
+
+        <input type="submit" value="Login">
+
+        <footer class="clearfix">
+
+        </footer>
+
+      </form>
+
+    </fieldset>
+
+  </div> <!-- end login-form -->
+
+</div>
+
+</body>
+
+</html>
